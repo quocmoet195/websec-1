@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <div class="layout">
+
+        <div class="field" id="wrapA">
+            <input type="text" id="numA" value="123">
+            <div class="msg" id="msgA"></div>
+        </div>
+
+        <div class="field select-wrap">
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">−</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </div>
+
+        <div class="field" id="wrapB">
+            <input type="text" id="numB" value="567">
+            <div class="msg" id="msgB"></div>
+        </div>
+
+        <button id="calculate">подсчитать</button>
+
+        <div class="results" id="results"></div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
